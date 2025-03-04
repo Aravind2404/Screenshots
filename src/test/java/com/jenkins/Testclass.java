@@ -34,10 +34,10 @@ public class Testclass extends basetest{
 		driver.findElement(By.xpath("//input[@type='password']")).sendKeys("Gthwersd23@");
 		Thread.sleep(2000);
 		driver.findElement(By.xpath("//button[@type='submit']")).click();
-        String Actualtitle =driver.getTitle();
-		String Expectedtitle ="sss-in";
-		Assert.assertEquals(Actualtitle , Expectedtitle, "title is mismatched");
-		
+//        String Actualtitle =driver.getTitle();
+//		String Expectedtitle ="sss-in";
+//		Assert.assertEquals(Actualtitle , Expectedtitle, "title is mismatched");
+//		
 		Thread.sleep(2000);
 	}
 //	

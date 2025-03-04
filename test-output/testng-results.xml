@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-03-04T16:29:08 IST" name="Default suite" finished-at="2025-03-04T16:29:31 IST" duration-ms="22870">
+  <suite started-at="2025-03-04T18:06:46 IST" name="Default suite" finished-at="2025-03-04T18:07:07 IST" duration-ms="20460">
     <groups>
     </groups>
-    <test started-at="2025-03-04T16:29:08 IST" name="Default test" finished-at="2025-03-04T16:29:31 IST" duration-ms="22870">
+    <test started-at="2025-03-04T18:06:46 IST" name="Default test" finished-at="2025-03-04T18:07:07 IST" duration-ms="20460">
       <class name="com.jenkins.Testclass">
-        <test-method is-config="true" signature="chromelaunch()[pri:0, instance:com.jenkins.Testclass@54a7079e]" started-at="2025-03-04T16:29:08 IST" name="chromelaunch" finished-at="2025-03-04T16:29:11 IST" duration-ms="2658" status="PASS">
+        <test-method is-config="true" signature="chromelaunch()[pri:0, instance:com.jenkins.Testclass@54a7079e]" started-at="2025-03-04T18:06:46 IST" name="chromelaunch" finished-at="2025-03-04T18:06:48 IST" duration-ms="1853" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- chromelaunch -->
-        <test-method signature="myjobbieelogin()[pri:0, instance:com.jenkins.Testclass@54a7079e]" started-at="2025-03-04T16:29:11 IST" name="myjobbieelogin" finished-at="2025-03-04T16:29:19 IST" duration-ms="7427" status="FAIL">
+        <test-method signature="myjobbieelogin()[pri:0, instance:com.jenkins.Testclass@54a7079e]" started-at="2025-03-04T18:06:48 IST" name="myjobbieelogin" finished-at="2025-03-04T18:06:56 IST" duration-ms="7532" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[title is mismatched expected [sss-in] but found [sign-in]]]>
@@ -58,11 +58,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- myjobbieelogin -->
-        <test-method signature="orangehrmlogin()[pri:0, instance:com.jenkins.Testclass@54a7079e]" started-at="2025-03-04T16:29:19 IST" name="orangehrmlogin" finished-at="2025-03-04T16:29:31 IST" duration-ms="12195" status="PASS">
+        <test-method signature="orangehrmlogin()[pri:0, instance:com.jenkins.Testclass@54a7079e]" started-at="2025-03-04T18:06:56 IST" name="orangehrmlogin" finished-at="2025-03-04T18:07:07 IST" duration-ms="10575" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- orangehrmlogin -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.jenkins.Testclass@54a7079e]" started-at="2025-03-04T16:29:31 IST" name="teardown" finished-at="2025-03-04T16:29:31 IST" duration-ms="101" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.jenkins.Testclass@54a7079e]" started-at="2025-03-04T18:07:07 IST" name="teardown" finished-at="2025-03-04T18:07:07 IST" duration-ms="85" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
